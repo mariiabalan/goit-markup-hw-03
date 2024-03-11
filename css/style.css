@@ -4,6 +4,13 @@ body {
     background: #fff;
 }
 
+* {
+padding: 0;
+margin: 0;
+border: 0;
+}
+
+
 h1,h2,h3,h4,h5,p {
     margin: 0;
 }
@@ -45,6 +52,10 @@ height: auto;
     padding-bottom: 120px;
 }
 
+.logo{
+    margin-right: 76px;
+}
+
 .container-header{
     display: flex;
 }
@@ -78,7 +89,7 @@ margin-right: 76px;
 .header-menu-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+    padding: 24px 0 24px;
 }
 
 .header-navigation{
