@@ -88,7 +88,6 @@ color: #2e2f42;
 .header-menu-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .header-navigation{
@@ -110,6 +109,8 @@ color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-top: 24px; 
+    padding-bottom: 24px;
 }
 
 .header-menu-link:hover,
@@ -217,11 +218,12 @@ height: 56px;
     display: flex;
     justify-content: center;
     gap: 24px; 
+    width: calc((100% - 72px) / 4); 
    
 }
 
 .feauter-item {
-    width: calc((100% - 72px) / 4); 
+
 }
 
 .feature-title-list {
