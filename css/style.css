@@ -57,9 +57,9 @@ height: auto;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    
-}
-.header.logo:focus,
+    }
+
+.header.logo:focus
 {
     color: #404bbf;
 }
@@ -72,6 +72,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2e2f42;
+margin-right: 76px; 
 }
 
 .header-menu-list {
@@ -86,6 +87,10 @@ color: #2e2f42;
     justify-content: space-between;
     margin-right: 332px;
     align-items: center;
+}
+
+.header-menu-item{
+    padding: 24px 0;
 }
 
 .header-menu-link {
@@ -128,18 +133,6 @@ color: #434455;
     background: #f4f4fd;
 }
 
-.visually-hidden{
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0px;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 
 
 .hero {
@@ -195,6 +188,21 @@ height: 56px;
     max-width: 1128px;
 }
 
+
+.feauter-title{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0px;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
 .feature-list {
     display: flex;
     justify-content: center;
@@ -228,7 +236,7 @@ margin-bottom: 8px;
 }
 .team {
     background-color: #F4F4FD;
-    padding-top: 120px 0;
+    padding-top: 120px;
 }
 .team-item {
     background-color: #FFFFFF;
@@ -328,6 +336,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 text-transform: capitalize;
+margin-bottom: 8px;
 }
 
 .portfolio-text {
