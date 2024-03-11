@@ -218,12 +218,10 @@ height: 56px;
     display: flex;
     justify-content: center;
     gap: 24px; 
-    width: calc((100% - 72px) / 4); 
-   
 }
 
 .feauter-item {
-
+flex-basis: calc((100% - 72px) / 4);
 }
 
 .feature-title-list {
