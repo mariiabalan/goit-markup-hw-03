@@ -88,7 +88,7 @@ color: #2e2f42;
 .header-menu-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0 24px;
+    padding: 24px 0;
 }
 
 .header-navigation{
@@ -100,7 +100,7 @@ color: #2e2f42;
 }
 
 .header-menu-item{
-    padding: 24px 0;
+    
 }
 
 .header-menu-link {
