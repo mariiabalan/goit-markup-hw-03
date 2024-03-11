@@ -52,9 +52,7 @@ height: auto;
     padding-bottom: 120px;
 }
 
-.logo{
-    margin-right: 76px;
-}
+
 
 .container-header{
     display: flex;
@@ -68,6 +66,7 @@ height: auto;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px; 
     }
 
 .header.logo:focus
@@ -83,7 +82,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2e2f42;
-margin-right: 76px; 
+
 }
 
 .header-menu-list {
@@ -221,8 +220,7 @@ height: 56px;
    
 }
 
-.feauter-item{
-    padding: 120px 156px 120px 156px;
+.feauter-item {
     width: calc((100% - 72px) / 4); 
 }
 
