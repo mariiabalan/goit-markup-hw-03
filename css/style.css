@@ -36,7 +36,7 @@ address{
 
 .container {
     width: 1158px;
-    /* padding: 0 15px; */
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -68,8 +68,8 @@ padding-bottom: 24px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px; 
-    margin-top: 25.5px;
+    /* margin-right: 76px;  */
+    /* margin-top: 25.5px; */
     }
 
 .header.logo:focus
@@ -252,8 +252,10 @@ margin-bottom: 8px;
 }
 .team-item {
     background-color: #FFFFFF;
-    justify-content: center;
-    width: calc((100% - 24px * 3 ) /4);
+    /* justify-content: center; */
+    padding-bottom: 32px;
+    border-radius: 0 0 4px 4px;
+    width: calc((100% - 72px) / 4)
 }
 .team-title {
     font-size: 36px;
