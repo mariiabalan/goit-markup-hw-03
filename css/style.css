@@ -68,7 +68,7 @@ padding-bottom: 24px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    /* margin-right: 76px;  */
+    margin-right: 76px; 
     /* margin-top: 25.5px; */
     }
 
@@ -199,7 +199,9 @@ height: 56px;
 
 
 .container-feauter {
-    padding: 120px 156px 120px 156px;
+    /* padding: 120px 156px 120px 156px; */
+    padding: 120px 0;
+    gap: 24px;
 }
 
 
@@ -226,6 +228,7 @@ height: 56px;
 .feauter-item {
 width: calc((100% - 72px) / 4);
 }
+
 
 .feature-title-list {
 font-weight: 500;
