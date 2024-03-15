@@ -238,8 +238,7 @@ height: 56px;
 }
 
 .feauter-item {
-    width: calc((100% - 72px) / 4)
-    gap: 24px;
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 
