@@ -198,10 +198,10 @@ height: 56px;
 }
 
 
-.container-feauter {
+/* .container-feauter { */
     /* padding: 120px 156px 120px 156px; */
-    padding: 120px 0;
-    gap: 24px;
+    /* padding: 120px 0; */
+    /* gap: 24px; */
 }
 
 
@@ -227,6 +227,7 @@ height: 56px;
 
 .feauter-item {
 width: calc((100% - 72px) / 4);
+gap: 24px;
 }
 
 
