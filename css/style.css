@@ -202,7 +202,7 @@ height: 56px;
     /* padding: 120px 156px 120px 156px; */
     /* padding: 120px 0; */
     /* gap: 24px; */
-}
+/* } */
 
 
 .feauter-title{
@@ -218,6 +218,18 @@ height: 56px;
     overflow: hidden;
 }
 
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .feature-list {
     display: flex;
@@ -226,8 +238,8 @@ height: 56px;
 }
 
 .feauter-item {
-width: calc((100% - 72px) / 4);
-gap: 24px;
+    width: calc((100% - 72px) / 4)
+    gap: 24px;
 }
 
 
